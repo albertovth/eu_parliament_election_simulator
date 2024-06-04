@@ -156,6 +156,8 @@ Certain political groups start at 0% because they did not secure seats in those 
 This program calculates seat allocation by applying the correct method that is used in each constituency for the number of seats available, and taking in consideration current political group thresholds.
 
 **Note**: For simplicity, this program uses Sainte-Laguë instead of the Single Transferable Vote (STV) method for Ireland and Malta. The Sainte-Laguë still provides proportional representation at the political group level.
+For more information on the intricacies implied in the STV method see [Single Transferable Vote - Disadvantages](https://aceproject.org/main/english/es/esf04b.htm).
+This summary provides a good overview of the challenges implied in forecasting this method on the basis of political groups, and programming such forecasts.
 
 A diagram showing the resulting distribution of seats in the forecast will be presented below. It may take some time to visualize.
 """)

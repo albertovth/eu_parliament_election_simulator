@@ -233,9 +233,9 @@ country_methods = {
     'Germany': [(sainte_lague, 96, 0)],
     'Greece': [(largest_remainder, 21, 0.03, hare_quota)],
     'Hungary': [(d_hondt, 21, 0.05)],
-    'Ireland_Dublin': [(sainte_lague, 4, 0)],
-    'Ireland_Midland_North_West': [(sainte_lague, 4, 0)],
-    'Ireland_South': [(sainte_lague, 6, 0)],
+    'Ireland_Dublin': [(sainte_lague, 4, 0)], ## Using Sainte-Laguë instead of Single Transferable Vote for simplicity
+    'Ireland_Midland_North_West': [(sainte_lague, 4, 0)],## Using Sainte-Laguë instead of Single Transferable Vote for simplicity
+    'Ireland_South': [(sainte_lague, 6, 0)], ## Using Sainte-Laguë instead of Single Transferable Vote for simplicity
     'Italy_North_West': [(largest_remainder, 21, 0.04, hare_quota)],
     'Italy_North_East': [(largest_remainder, 15, 0.04, hare_quota)],
     'Italy_Central': [(largest_remainder, 14, 0.04, hare_quota)],
@@ -244,7 +244,7 @@ country_methods = {
     'Latvia': [(sainte_lague, 9, 0.05)],
     'Lithuania': [(largest_remainder, 11, 0.05, hare_quota)],
     'Luxembourg': [(d_hondt, 6, 0)],
-    'Malta': [(sainte_lague, 6, 0)],
+    'Malta': [(sainte_lague, 6, 0)],## Using Sainte-Laguë instead of Single Transferable Vote for simplicity
     'Netherlands': [(d_hondt, 31, 0.032)],
     'Poland_Greater_Poland': [(d_hondt, 4, 0.05)],
     'Poland_Kuyavian_Pomeranian': [(d_hondt, 2, 0.05)],

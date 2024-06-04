@@ -150,7 +150,7 @@ Adjust your forecasts using the menu on the left. Voter turnout by country can a
 
 The starting point for the simulation is the distribution of seats in the EU Parliament by constituency, based on the 2019 election results, with rough population estimates for 2024.
 
-Certain political groups start at 0% because they did not secure seats in those constituencies in 2019, although they may have received votes. You can update these values by adjusting the sliders with recent forecasts.
+Certain political groups start at 0%, because they did not secure seats in those constituencies in 2019, although they may have received votes. You can update these values by adjusting the sliders with recent forecasts.
 
 This program calculates seat allocation by applying the correct method used in each constituency for the number of seats available, considering current political group thresholds.
 

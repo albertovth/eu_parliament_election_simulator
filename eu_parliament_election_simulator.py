@@ -153,6 +153,8 @@ The starting point for the simulation is the distribution of seats in the EU Par
 
 Certain political groups start at 0% because they did not secure seats in those constituencies in 2019, although they may have received votes. You can update these values by adjusting the sliders with recent forecasts.
 
+This program calculates seat allocation by applying the correct method that is used in each constituency for the number of seats available, and taking in consideration current political group thresholds.
+
 A diagram showing the resulting distribution of seats in the forecast will be presented below. It may take some time to visualize.
 """)
 

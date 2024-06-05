@@ -154,8 +154,8 @@ Default voter turnout is based on voter participation by country in the EU Parli
 
 In the original forecast, the authors warn that "vote shares do not add up to 100 per cent because we do not show minor parties or votes for 'other' parties." 
 However, in this simulation, vote shares are normalized, so they do add to 100 % by constituency. This starting point might overestimate the number of seats for certain parliamentary groups.
-You also have to take in consideration that the poll was from Januar 2024. 
-But you can update these values by adjusting the sliders with more recent forecasts.
+You also have to take in consideration that the poll, registered as default values, was published in January 2024. 
+But you can update these values by adjusting the sliders, with more accurate and recent forecasts.
 
 This program calculates seat allocation by applying the correct method used in each constituency for the number of seats available, considering current political group thresholds.
 These methods include [D'Hont Method](https://en.wikipedia.org/wiki/D%27Hondt_method), [Sainte-Laguë Method (including the modified version)](https://en.wikipedia.org/wiki/Sainte-Lagu%C3%AB_method) and [Largest Remainder Method](https://en.wikipedia.org/wiki/Largest_remainders_method).

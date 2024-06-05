@@ -148,9 +148,11 @@ st.markdown(f"Contact: [Alberto Valiente Thoresen](mailto:{email_address})")
 st.markdown("""
 Adjust your forecasts using the menu on the left. Voter turnout by country can also be registered at the bottom of this menu.
 
-The starting point for the simulation is the distribution of seats in the EU Parliament by constituency, based on the 2019 election results, with rough population estimates for 2024.
+The starting point for the simulation is the forecast "vote share by member state" for the EU Parliament Election 2024, presented [here](https://ecfr.eu/publication/a-sharp-right-turn-a-forecast-for-the-2024-european-parliament-elections/) , with rough population estimates for 2024.
+When not available, vote shares per constituency are estimated on the basis of the expected vote share for the respective member state that the constituency belongs to.
 
-Certain political groups start at 0%, because they did not secure seats in those constituencies in 2019, although they may have received votes. You can update these values by adjusting the sliders with recent forecasts.
+In the original forecast, the authors warn that "vote shares do not add up to 100 per cent because we do not show minor parties or votes for 'other' parties." 
+However, in this simulation, vote shares are normalized, so they do add to 100 % by constituency. You can update these values by adjusting the sliders with recent forecasts.
 
 This program calculates seat allocation by applying the correct method used in each constituency for the number of seats available, considering current political group thresholds.
 These methods include [D'Hont Method](https://en.wikipedia.org/wiki/D%27Hondt_method), [Sainte-Laguë Method (including the modified version)](https://en.wikipedia.org/wiki/Sainte-Lagu%C3%AB_method) and [Largest Remainder Method](https://en.wikipedia.org/wiki/Largest_remainders_method).

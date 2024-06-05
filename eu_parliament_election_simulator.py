@@ -146,10 +146,11 @@ email_address = "alberto@vthoresen.no"
 st.title("EU Parliament Election Simulator")
 st.markdown(f"Contact: [Alberto Valiente Thoresen](mailto:{email_address})")
 st.markdown("""
-Adjust your forecasts using the menu on the left. Voter turnout by country can also be registered at the bottom of this menu.
+Adjust your forecasts by using the menu on the left. Voter turnout by country can also be updated at the bottom of this menu.
 
 The starting point for the simulation is the forecast "vote share by member state" for the EU Parliament Election 2024, presented [here](https://ecfr.eu/publication/a-sharp-right-turn-a-forecast-for-the-2024-european-parliament-elections/) , with rough population estimates for 2024.
 When not available, vote shares per constituency are estimated on the basis of the expected vote share for the respective member state that the constituency belongs to.
+Default voter turnout is based on voter participation by country in the EU Parliament Election 2019.
 
 In the original forecast, the authors warn that "vote shares do not add up to 100 per cent because we do not show minor parties or votes for 'other' parties." 
 However, in this simulation, vote shares are normalized, so they do add to 100 % by constituency. This starting point might overestimate the number of seats for certain parliamentary groups.

@@ -160,6 +160,8 @@ But you can update these values by adjusting the sliders, with more accurate and
 This program calculates seat allocation by applying the correct method used in each constituency for the number of seats available, considering current political group thresholds.
 These methods include [D'Hont Method](https://en.wikipedia.org/wiki/D%27Hondt_method), [Sainte-Laguë Method (including the modified version)](https://en.wikipedia.org/wiki/Sainte-Lagu%C3%AB_method) and [Largest Remainder Method](https://en.wikipedia.org/wiki/Largest_remainders_method).
 An overview of the methods used by constituency is presented [here](https://en.wikipedia.org/wiki/2024_European_Parliament_election).
+Results are merely indicative, given that the methods are applied to political groups, and not to political parties in each constituency.
+The actual results will therefore differ, also considering threshold effects. However, the discrepancy will not be too large, since parliamentary groups are often represented by one or few parties in each constituency.
 
 **Note**: For simplicity, this program uses Sainte-Laguë instead of the Single Transferable Vote (STV) method for Ireland and Malta. The Sainte-Laguë method still provides proportional representation at the political group level. For more information on the intricacies of the STV method, see [Single Transferable Vote - Disadvantages](https://aceproject.org/main/english/es/esf04b.htm). This summary provides a good overview of the challenges involved in forecasting this method solely based on political groups, and programming such forecasts.
 
